@@ -1,2 +1,2 @@
 # College-Magazine
-Android application on College Magazine using android
+Android application on College Magazine using android_studio
