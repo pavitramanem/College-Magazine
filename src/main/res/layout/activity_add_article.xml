@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addArticle"
+    android:background="@drawable/pen">
+    <EditText
+        android:id="@+id/a1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:hint="Article Title"
+        android:inputType="text"
+        android:textColorHint="@android:color/background_dark"
+        android:textColorLink="@android:color/background_dark" />
+
+    <EditText
+        android:id="@+id/a2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/a1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="69dp"
+        android:hint="Description about article"
+        android:inputType="text"
+        android:textColorHint="@android:color/background_dark"
+        android:textColorLink="@android:color/background_dark" />
+
+    <Button
+        android:id="@+id/s1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="135dp"
+        android:background="@android:color/transparent"
+        android:onClick="submit"
+        android:text="SUBMIT" />
+
+
+</RelativeLayout>
